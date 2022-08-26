@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="./js/modal.js" defer></script>
+    <!-- <script
+      src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.js"
+      defer
+    ></script> -->
+    <title>PMF2Conf</title>
+  </head>
+  <body>
+    <div class="container">
+      <section class="launch">
+        <div class="launch__title">Запуск</div>
+      </section>
+      <section class="project-work">
+        <div class="project-work__title">Работа по проекту</div>
+      </section>
+      <section class="closure">
+        <div class="closure__title">Закрытие</div>
+      </section>
+      <section class="after-project">
+        <div class="after-project__title">После<br />проекта</div>
+      </section>
+      <div class="period">
+        <div class="period__daily">Daily</div>
+        <div class="period__weekly">Weekly</div>
+        <div class="period__sprint">Sprint</div>
+        <div class="period__monthly">Monthly</div>
+        <div class="period__quarterly">Quarterly</div>
+      </div>
+      <div id="circles">
+        <div class="circle circle-blue circle-blue-A01" data-id="2380398639">
+          IN01
+        </div>
+        <div class="thread thread-A01"></div>
+        <div class="circle circle-blue circle-blue-A02" data-id="2386853914">
+          IN02
+        </div>
+        <div class="thread thread-A02"></div>
+        <div class="circle circle-blue circle-blue-A03" data-id="2386952205">
+          IN03
+        </div>
+        <div class="thread thread-A03"></div>
+        <div
+          class="circle circle-purple circle-purple-A04"
+          data-id="2386919431"
+        >
+          IN04
+        </div>
+        <div class="thread thread-A04"></div>
+        <div class="circle circle-blue circle-blue-A05" data-id="2386821143">
+          IN05
+        </div>
+        <div class="thread thread-A05"></div>
+        <div class="circle circle-blue circle-blue-A06" data-id="2386853958">
+          IN06
+        </div>
+        <div class="thread thread-A06"></div>
+        <div class="circle circle-blue circle-blue-A07" data-id="2386952217">
+          IN07
+        </div>
+        <div class="thread thread-A07"></div>
+        <div class="circle circle-blue circle-blue-A08" data-id="2387017747">
+          IN08
+        </div>
+        <div class="thread thread-A08"></div>
+
+        <div
+          class="circle circle-purple circle-purple-B01"
+          data-id="2386821170"
+        >
+          PL01
+        </div>
+        <div
+          class="circle circle-purple circle-purple-B02"
+          data-id="2387017757"
+        >
+          PL02
+        </div>
+        <div
+          class="circle circle-purple circle-purple-B03"
+          data-id="2386428207"
+        >
+          PL03
+        </div>
+
+        <div class="circle circle-blue circle-blue-C01" data-id="2391081270">
+          Q01
+        </div>
+        <div
+          class="circle circle-purple circle-purple-C02"
+          data-id="2391048577"
+        >
+          Q02
+        </div>
+
+        <div class="circle circle-blue circle-blue-D01" data-id="2390196225">
+          M01
+        </div>
+        <div class="circle circle-blue circle-blue-D02" data-id="2389803132">
+          M02
+        </div>
+        <div class="circle circle-blue circle-blue-D03" data-id="2389966875">
+          M03
+        </div>
+        <div class="circle circle-blue circle-blue-D04" data-id="2389508354">
+          M04
+        </div>
+        <div class="circle circle-blue circle-blue-D05" data-id="2390228993">
+          M05
+        </div>
+        <div class="circle circle-blue circle-blue-D06" data-id="2390229000">
+          M06
+        </div>
+        <div class="circle circle-blue circle-blue-D07" data-id="2389999633">
+          M07
+        </div>
+
+        <div
+          class="circle circle-purple circle-purple-E01"
+          data-id="2388688965"
+        >
+          SP01
+        </div>
+        <div
+          class="circle circle-purple circle-purple-E02"
+          data-id="2388820023"
+        >
+          SP02
+        </div>
+        <div
+          class="circle circle-purple circle-purple-E03"
+          data-id="2388852774"
+        >
+          SP03
+        </div>
+        <div
+          class="circle circle-purple circle-purple-E04"
+          data-id="2389147672"
+        >
+          SP04
+        </div>
+        <div
+          class="circle circle-purple circle-purple-E05"
+          data-id="2388721710"
+        >
+          SP05
+        </div>
+
+        <div class="circle circle-blue circle-blue-F01" data-id="2388492407">
+          W01
+        </div>
+        <div class="circle circle-blue circle-blue-F02" data-id="2388558036">
+          W02
+        </div>
+        <div class="circle circle-blue circle-blue-F03" data-id="2389311518">
+          W03
+        </div>
+        <div
+          class="circle circle-yellow circle-yellow-F04"
+          data-id="2389049363"
+        >
+          Acc report
+        </div>
+        <div
+          class="circle circle-purple circle-purple-F05"
+          data-id="2388361339"
+        >
+          W05
+        </div>
+
+        <div class="circle circle-blue circle-blue-G01" data-id="2389147665">
+          D01
+        </div>
+        <div class="circle circle-blue circle-blue-G02" data-id="2388656205">
+          D02
+        </div>
+        <div class="circle circle-blue circle-blue-G03" data-id="2389245981">
+          D03
+        </div>
+        <div class="circle circle-blue circle-blue-G04" data-id="2388558046">
+          D04
+        </div>
+        <div class="circle circle-blue circle-blue-G05" data-id="2389245988">
+          D05
+        </div>
+        <div class="circle circle-blue circle-blue-G06" data-id="2388328516">
+          D06
+        </div>
+        <div class="circle circle-blue circle-blue-G07" data-id="2388328523">
+          D07
+        </div>
+        <div
+          class="circle circle-purple circle-purple-G08"
+          data-id="2388951107"
+        >
+          D08
+        </div>
+
+        <div
+          class="circle circle-purple circle-purple-H01"
+          data-id="2389704903"
+        >
+          FCL
+        </div>
+
+        <div class="circle circle-blue circle-blue-I01" data-id="2389901395">
+          CL01
+        </div>
+        <div class="thread thread-I01"></div>
+        <div class="circle circle-blue circle-blue-I02" data-id="2390163472">
+          CL02
+        </div>
+        <div class="thread thread-I02"></div>
+        <div class="circle circle-blue circle-blue-I03" data-id="2389410044">
+          CL03
+        </div>
+        <div class="thread thread-I03"></div>
+        <div class="circle circle-blue circle-blue-I04" data-id="2389999642">
+          CL04
+        </div>
+        <div class="thread thread-I04"></div>
+        <div class="circle circle-blue circle-blue-I05" data-id="2390196247">
+          CL05
+        </div>
+        <div class="thread thread-I05"></div>
+
+        <div
+          class="circle circle-purple circle-purple-J01"
+          data-id="2387902614"
+        >
+          AF01
+        </div>
+        <div class="thread thread-J01"></div>
+      </div>
+    </div>
+
+    <div id="modal-big" class="modal-big">
+      <div id="modal-big-close" class="modal-big__btn-close"></div>
+    </div>
+
+    <script src="https://unpkg.com/@popperjs/core@2"></script>
+    <script src="https://unpkg.com/tippy.js@6"></script>
+  </body>
+</html>
