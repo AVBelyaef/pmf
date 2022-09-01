@@ -117,7 +117,6 @@ $color-white-smoke: #F5F5F5;
   font-weight: 500;
   font-size: 7px;
   line-height: 10px;
-  // text-transform: uppercase;
   text-align: center;
   color: $color-black;
   cursor: pointer;
@@ -228,6 +227,11 @@ $color-white-smoke: #F5F5F5;
       &03 {
         left: 495px;
         top: 315px;
+      }
+
+      &04 {
+        left: 494px;
+        top: 282px;
       }
     }
 
@@ -380,11 +384,6 @@ $color-white-smoke: #F5F5F5;
   &-yellow {
     background-color: $color-yellow;
     box-shadow: 0px 4px 12px rgba(255, 241, 119, 0.3);
-
-    &-F04 {
-      left: 494px;
-      top: 282px;
-    }
   }
 
 }
